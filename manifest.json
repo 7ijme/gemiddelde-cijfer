@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Gemiddelde Cijfer",
+    "version": "1.0",
+    "description": "Gemiddelde Cijfer op Somtoday",
+	"author": "Tijme",
+
+    "content_scripts": [{
+        "matches": ["https://elo.somtoday.nl/home/grades?*"],
+        "js": ["script.js"],
+        "css": ["style.css"]
+
+    }],
+    "permissions": ["activeTab"]
+}

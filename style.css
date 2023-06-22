@@ -1,0 +1,10 @@
+.r-content {
+	display: flex;
+}
+
+#gemiddelde {
+	margin-left: auto;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
