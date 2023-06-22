@@ -4,7 +4,11 @@
     "version": "1.0",
     "description": "Gemiddelde Cijfer op Somtoday",
 	"author": "Tijme",
-
+	"icons": {
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
     "content_scripts": [{
         "matches": ["https://elo.somtoday.nl/home/grades?*"],
         "js": ["script.js"],
